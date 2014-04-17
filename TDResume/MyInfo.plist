@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>veronasummary</key>
+	<string>App created at BEPiD, which its goal is connect people who want to share and give rides. It’s in development, to be launched soon.</string>
+	<key>publication</key>
+	<dict>
+		<key>title</key>
+		<string>Building Capable, Energy-Efficient, Flexible Visualization and Sensing Clusters from Commodity Tablets</string>
+		<key>summary</key>
+		<string>We presented our work at GCASR 2013, presenting the Position Statement and Preliminary Progress Report.</string>
+		<key>articleurl</key>
+		<string>http://ecommons.luc.edu/cs_facpubs/66/</string>
+		<key>post</key>
+		<string>http://blog.cs.luc.edu/post/50222051590/during-the-gcasr-2013-poster-session-loyola-cs</string>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>github</key>
+	<string>https://github.com/thomasdelgado</string>
+	<key>education</key>
+	<array>
+		<dict>
+			<key>school</key>
+			<string>Pontificia Universidade do Rio Grande do Sul (PUCRS)</string>
+			<key>period</key>
+			<string>Jan 2010 – Dec 2014</string>
+			<key>info</key>
+			<string>Double major in Information Systems &amp; Computer Science (C.R 9.5)</string>
+		</dict>
+		<dict>
+			<key>school</key>
+			<string>Loyola University Chicago, Quinlan School of Business</string>
+			<key>period</key>
+			<string>Jul 2012 – Aug 2013</string>
+			<key>info</key>
+			<string>Double major in Information Systems &amp; Computer Science (GPA 4.0) |One-Year Study Abroad Student</string>
+		</dict>
+		<dict>
+			<key>school</key>
+			<string>Technical School Alcides Maya</string>
+			<key>period</key>
+			<string>Jan 2007 – Jan 2009</string>
+			<key>info</key>
+			<string>Information Technology – Software and Hardware – Technical School (Post High School)</string>
+		</dict>
+	</array>
+	<key>phone</key>
+	<string>+55 (51) 9917-6352</string>
+	<key>email</key>
+	<string>thomas.ddelgado@gmail.com</string>
+	<key>linkedin</key>
+	<string>http://www.linkedin.com/in/thomasdelgado/pt</string>
+	<key>volunteer</key>
+	<dict>
+		<key>title</key>
+		<string>Adoptive student @ Loyola University Chicago</string>
+		<key>description</key>
+		<string>Attended to Christmas on Campus at Loyola, adopting a child during one day to make them happy.</string>
+	</dict>
+	<key>technical skills</key>
+	<array>
+		<string>Experience in programming languages such as Objective C, Pascal and Java.</string>
+		<string>Knowledge in programming languages such as C/C++, Python and PHP.</string>
+		<string>Experience in modeling Relational Databases, SQL and PL/SQL.</string>
+		<string>Experience in Software Engineering, Design Patterns and Software Architecture.</string>
+		<string>Experience in Agile Software Development methodologies such Scrum and XP.</string>
+	</array>
+	<key>name</key>
+	<string>Thomas Delgado</string>
+	<key>about</key>
+	<string>Software Engineer, BEPiD Student, Information Systems and Computer Science Undergraduate student</string>
+	<key>summary</key>
+	<string>My interests are Mobile development, Software Engineering and Entrepreneurship. I strive to work in meaningful projects that can change people’s lives, allowing me to contribute with my knowledge while also evolving as a professional.</string>
+	<key>experiences</key>
+	<array>
+		<dict>
+			<key>duration</key>
+			<string>Nov 2013 – Present</string>
+			<key>job</key>
+			<string>iOS Developer Student @ BEPiD</string>
+			<key>description</key>
+			<string>Student at BEPiD (Brazilian Educational Program for iOS Developers), an innovative program to qualify graduation students on iOS development. The pedagogic approach used on this program is known as CBL (Challenged Based Learning), allowing students to learn in a collaborative way working together with students and teachers to solve challenges.</string>
+		</dict>
+		<dict>
+			<key>duration</key>
+			<string>Aug 2008 – Jun 2012                              Oct 2013 – Present</string>
+			<key>job</key>
+			<string>Software Engineer @ Lexsis Sistemas</string>
+			<key>description</key>
+			<string>Worked as a software developer to implement and enhance a customized Enterprise Resource Planning (ERP) system for more than five hundred clients around the country.||Collaborated on many company projects during the analysis, design, implementation, and testing phases.||Helped to improve the company’s software development process by partnering in the implementation of Scrum, installing version control software, and defining design patterns.</string>
+		</dict>
+		<dict>
+			<key>duration</key>
+			<string>Nov 2013 – Present</string>
+			<key>job</key>
+			<string>Computer Technician @ BoB Cyber LAN</string>
+			<key>description</key>
+			<string>Assisted customers to diagnose and resolve issues related to computers malfunctions.</string>
+		</dict>
+		<dict>
+			<key>duration</key>
+			<string>Nov 2013 – Present</string>
+			<key>job</key>
+			<string>Computer Technician @ SES - RS</string>
+			<key>description</key>
+			<string>Identified and solved problems regarding to software or hardware issues.|Provided preventive maintenance (i.e., network monitoring, anti-virus/spyware installation) tomitigate computer issues.|Instructed coworkers on the use of the Internet.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

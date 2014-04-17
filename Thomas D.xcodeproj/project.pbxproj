@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E949EB1B18F9DBC80053CA7C /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = E949EB1A18F9DBC80053CA7C /* UIColor+HexString.m */; };
+		E949EB2118FAE5210053CA7C /* TDTranslucentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E949EB2018FAE5210053CA7C /* TDTranslucentView.m */; };
+		E949EB2418FB080C0053CA7C /* TDMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E949EB2318FB080C0053CA7C /* TDMe.m */; };
+		E949EB2818FB0A2B0053CA7C /* MyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E949EB2718FB0A2B0053CA7C /* MyInfo.plist */; };
+		E949EB2A18FB69140053CA7C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E949EB2918FB69140053CA7C /* MediaPlayer.framework */; };
+		E949EB2E18FB88810053CA7C /* verona_video.mov in Resources */ = {isa = PBXBuildFile; fileRef = E949EB2D18FB88810053CA7C /* verona_video.mov */; };
+		E9914C2318F9D02700F8A279 /* TDSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E9914C2218F9D02700F8A279 /* TDSection.m */; };
+		E9FF50E318F7971C00D4174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF50E218F7971C00D4174E /* Foundation.framework */; };
+		E9FF50E518F7971C00D4174E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF50E418F7971C00D4174E /* CoreGraphics.framework */; };
+		E9FF50E718F7971C00D4174E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF50E618F7971C00D4174E /* UIKit.framework */; };
+		E9FF50ED18F7971C00D4174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FF50EB18F7971C00D4174E /* InfoPlist.strings */; };
+		E9FF50EF18F7971C00D4174E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF50EE18F7971C00D4174E /* main.m */; };
+		E9FF50F318F7971C00D4174E /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF50F218F7971C00D4174E /* TDAppDelegate.m */; };
+		E9FF50F618F7971C00D4174E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FF50F418F7971C00D4174E /* Main.storyboard */; };
+		E9FF50F918F7971C00D4174E /* TDResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF50F818F7971C00D4174E /* TDResumeVC.m */; };
+		E9FF50FB18F7971C00D4174E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FF50FA18F7971C00D4174E /* Images.xcassets */; };
+		E9FF510218F7971C00D4174E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF510118F7971C00D4174E /* XCTest.framework */; };
+		E9FF510318F7971C00D4174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF50E218F7971C00D4174E /* Foundation.framework */; };
+		E9FF510418F7971D00D4174E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF50E618F7971C00D4174E /* UIKit.framework */; };
+		E9FF510C18F7971D00D4174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FF510A18F7971D00D4174E /* InfoPlist.strings */; };
+		E9FF510E18F7971D00D4174E /* TDResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF510D18F7971D00D4174E /* TDResumeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9FF510518F7971D00D4174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9FF50D718F7971C00D4174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9FF50DE18F7971C00D4174E;
+			remoteInfo = TDResume;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E949EB1918F9DBC80053CA7C /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		E949EB1A18F9DBC80053CA7C /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		E949EB1F18FAE5210053CA7C /* TDTranslucentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTranslucentView.h; sourceTree = "<group>"; };
+		E949EB2018FAE5210053CA7C /* TDTranslucentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTranslucentView.m; sourceTree = "<group>"; };
+		E949EB2218FB080C0053CA7C /* TDMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMe.h; sourceTree = "<group>"; };
+		E949EB2318FB080C0053CA7C /* TDMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMe.m; sourceTree = "<group>"; };
+		E949EB2718FB0A2B0053CA7C /* MyInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyInfo.plist; sourceTree = "<group>"; };
+		E949EB2918FB69140053CA7C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E949EB2D18FB88810053CA7C /* verona_video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = verona_video.mov; sourceTree = "<group>"; };
+		E9914C2118F9D02700F8A279 /* TDSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSection.h; sourceTree = "<group>"; };
+		E9914C2218F9D02700F8A279 /* TDSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSection.m; sourceTree = "<group>"; };
+		E9FF50DF18F7971C00D4174E /* Thomas D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thomas D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FF50E218F7971C00D4174E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9FF50E418F7971C00D4174E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9FF50E618F7971C00D4174E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9FF50EA18F7971C00D4174E /* Thomas D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thomas D-Info.plist"; sourceTree = "<group>"; };
+		E9FF50EC18F7971C00D4174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9FF50EE18F7971C00D4174E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9FF50F018F7971C00D4174E /* Thomas D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thomas D-Prefix.pch"; sourceTree = "<group>"; };
+		E9FF50F118F7971C00D4174E /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
+		E9FF50F218F7971C00D4174E /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
+		E9FF50F518F7971C00D4174E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9FF50F718F7971C00D4174E /* TDResumeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDResumeVC.h; sourceTree = "<group>"; };
+		E9FF50F818F7971C00D4174E /* TDResumeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDResumeVC.m; sourceTree = "<group>"; };
+		E9FF50FA18F7971C00D4174E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9FF510018F7971C00D4174E /* Thomas DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thomas DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FF510118F7971C00D4174E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9FF510918F7971D00D4174E /* Thomas DTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thomas DTests-Info.plist"; sourceTree = "<group>"; };
+		E9FF510B18F7971D00D4174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9FF510D18F7971D00D4174E /* TDResumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDResumeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9FF50DC18F7971C00D4174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E949EB2A18FB69140053CA7C /* MediaPlayer.framework in Frameworks */,
+				E9FF50E518F7971C00D4174E /* CoreGraphics.framework in Frameworks */,
+				E9FF50E718F7971C00D4174E /* UIKit.framework in Frameworks */,
+				E9FF50E318F7971C00D4174E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FF50FD18F7971C00D4174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FF510218F7971C00D4174E /* XCTest.framework in Frameworks */,
+				E9FF510418F7971D00D4174E /* UIKit.framework in Frameworks */,
+				E9FF510318F7971C00D4174E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E949EB1718F9D3830053CA7C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E949EB1918F9DBC80053CA7C /* UIColor+HexString.h */,
+				E949EB1A18F9DBC80053CA7C /* UIColor+HexString.m */,
+				E9914C2118F9D02700F8A279 /* TDSection.h */,
+				E9914C2218F9D02700F8A279 /* TDSection.m */,
+				E949EB1F18FAE5210053CA7C /* TDTranslucentView.h */,
+				E949EB2018FAE5210053CA7C /* TDTranslucentView.m */,
+				E949EB2218FB080C0053CA7C /* TDMe.h */,
+				E949EB2318FB080C0053CA7C /* TDMe.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E949EB1818F9D38A0053CA7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9FF50F418F7971C00D4174E /* Main.storyboard */,
+				E9FF50F718F7971C00D4174E /* TDResumeVC.h */,
+				E9FF50F818F7971C00D4174E /* TDResumeVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9FF50D618F7971C00D4174E = {
+			isa = PBXGroup;
+			children = (
+				E9FF50E818F7971C00D4174E /* TDResume */,
+				E9FF510718F7971D00D4174E /* TDResumeTests */,
+				E9FF50E118F7971C00D4174E /* Frameworks */,
+				E9FF50E018F7971C00D4174E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9FF50E018F7971C00D4174E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9FF50DF18F7971C00D4174E /* Thomas D.app */,
+				E9FF510018F7971C00D4174E /* Thomas DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9FF50E118F7971C00D4174E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E949EB2918FB69140053CA7C /* MediaPlayer.framework */,
+				E9FF50E218F7971C00D4174E /* Foundation.framework */,
+				E9FF50E418F7971C00D4174E /* CoreGraphics.framework */,
+				E9FF50E618F7971C00D4174E /* UIKit.framework */,
+				E9FF510118F7971C00D4174E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9FF50E818F7971C00D4174E /* TDResume */ = {
+			isa = PBXGroup;
+			children = (
+				E949EB1818F9D38A0053CA7C /* ViewControllers */,
+				E949EB1718F9D3830053CA7C /* Classes */,
+				E9FF50E918F7971C00D4174E /* Supporting Files */,
+			);
+			path = TDResume;
+			sourceTree = "<group>";
+		};
+		E9FF50E918F7971C00D4174E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E949EB2D18FB88810053CA7C /* verona_video.mov */,
+				E9FF50FA18F7971C00D4174E /* Images.xcassets */,
+				E9FF50F118F7971C00D4174E /* TDAppDelegate.h */,
+				E9FF50F218F7971C00D4174E /* TDAppDelegate.m */,
+				E9FF50EA18F7971C00D4174E /* Thomas D-Info.plist */,
+				E9FF50EB18F7971C00D4174E /* InfoPlist.strings */,
+				E9FF50EE18F7971C00D4174E /* main.m */,
+				E9FF50F018F7971C00D4174E /* Thomas D-Prefix.pch */,
+				E949EB2718FB0A2B0053CA7C /* MyInfo.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9FF510718F7971D00D4174E /* TDResumeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FF510D18F7971D00D4174E /* TDResumeTests.m */,
+				E9FF510818F7971D00D4174E /* Supporting Files */,
+			);
+			path = TDResumeTests;
+			sourceTree = "<group>";
+		};
+		E9FF510818F7971D00D4174E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FF510918F7971D00D4174E /* Thomas DTests-Info.plist */,
+				E9FF510A18F7971D00D4174E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9FF50DE18F7971C00D4174E /* Thomas D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FF511118F7971D00D4174E /* Build configuration list for PBXNativeTarget "Thomas D" */;
+			buildPhases = (
+				E9FF50DB18F7971C00D4174E /* Sources */,
+				E9FF50DC18F7971C00D4174E /* Frameworks */,
+				E9FF50DD18F7971C00D4174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thomas D";
+			productName = TDResume;
+			productReference = E9FF50DF18F7971C00D4174E /* Thomas D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9FF50FF18F7971C00D4174E /* Thomas DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FF511418F7971D00D4174E /* Build configuration list for PBXNativeTarget "Thomas DTests" */;
+			buildPhases = (
+				E9FF50FC18F7971C00D4174E /* Sources */,
+				E9FF50FD18F7971C00D4174E /* Frameworks */,
+				E9FF50FE18F7971C00D4174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FF510618F7971D00D4174E /* PBXTargetDependency */,
+			);
+			name = "Thomas DTests";
+			productName = TDResumeTests;
+			productReference = E9FF510018F7971C00D4174E /* Thomas DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9FF50D718F7971C00D4174E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thomas Delgado";
+				TargetAttributes = {
+					E9FF50DE18F7971C00D4174E = {
+						DevelopmentTeam = B7VMMPC6DV;
+					};
+					E9FF50FF18F7971C00D4174E = {
+						TestTargetID = E9FF50DE18F7971C00D4174E;
+					};
+				};
+			};
+			buildConfigurationList = E9FF50DA18F7971C00D4174E /* Build configuration list for PBXProject "Thomas D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9FF50D618F7971C00D4174E;
+			productRefGroup = E9FF50E018F7971C00D4174E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9FF50DE18F7971C00D4174E /* Thomas D */,
+				E9FF50FF18F7971C00D4174E /* Thomas DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9FF50DD18F7971C00D4174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E949EB2818FB0A2B0053CA7C /* MyInfo.plist in Resources */,
+				E9FF50FB18F7971C00D4174E /* Images.xcassets in Resources */,
+				E949EB2E18FB88810053CA7C /* verona_video.mov in Resources */,
+				E9FF50ED18F7971C00D4174E /* InfoPlist.strings in Resources */,
+				E9FF50F618F7971C00D4174E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FF50FE18F7971C00D4174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FF510C18F7971D00D4174E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9FF50DB18F7971C00D4174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E949EB1B18F9DBC80053CA7C /* UIColor+HexString.m in Sources */,
+				E9FF50F918F7971C00D4174E /* TDResumeVC.m in Sources */,
+				E949EB2118FAE5210053CA7C /* TDTranslucentView.m in Sources */,
+				E949EB2418FB080C0053CA7C /* TDMe.m in Sources */,
+				E9FF50F318F7971C00D4174E /* TDAppDelegate.m in Sources */,
+				E9FF50EF18F7971C00D4174E /* main.m in Sources */,
+				E9914C2318F9D02700F8A279 /* TDSection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FF50FC18F7971C00D4174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FF510E18F7971D00D4174E /* TDResumeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9FF510618F7971D00D4174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9FF50DE18F7971C00D4174E /* Thomas D */;
+			targetProxy = E9FF510518F7971D00D4174E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9FF50EB18F7971C00D4174E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FF50EC18F7971C00D4174E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9FF50F418F7971C00D4174E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FF50F518F7971C00D4174E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9FF510A18F7971D00D4174E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FF510B18F7971D00D4174E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9FF510F18F7971D00D4174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9FF511018F7971D00D4174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9FF511218F7971D00D4174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDResume/Thomas D-Prefix.pch";
+				INFOPLIST_FILE = "TDResume/Thomas D-Info.plist";
+				PRODUCT_NAME = "Thomas D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9FF511318F7971D00D4174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDResume/Thomas D-Prefix.pch";
+				INFOPLIST_FILE = "TDResume/Thomas D-Info.plist";
+				PRODUCT_NAME = "Thomas D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9FF511518F7971D00D4174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDResume.app/TDResume";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDResume/TDResume-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TDResumeTests/Thomas DTests-Info.plist";
+				PRODUCT_NAME = "Thomas DTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9FF511618F7971D00D4174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDResume.app/TDResume";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDResume/TDResume-Prefix.pch";
+				INFOPLIST_FILE = "TDResumeTests/Thomas DTests-Info.plist";
+				PRODUCT_NAME = "Thomas DTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9FF50DA18F7971C00D4174E /* Build configuration list for PBXProject "Thomas D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FF510F18F7971D00D4174E /* Debug */,
+				E9FF511018F7971D00D4174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FF511118F7971D00D4174E /* Build configuration list for PBXNativeTarget "Thomas D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FF511218F7971D00D4174E /* Debug */,
+				E9FF511318F7971D00D4174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FF511418F7971D00D4174E /* Build configuration list for PBXNativeTarget "Thomas DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FF511518F7971D00D4174E /* Debug */,
+				E9FF511618F7971D00D4174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9FF50D718F7971C00D4174E /* Project object */;
+}
